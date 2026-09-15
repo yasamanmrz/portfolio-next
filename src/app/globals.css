@@ -1,26 +1,69 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #1c1714;
+  --foreground: #f8f5f0;
+
+  --primary: #b98b62;
+  --primary-light: #d2ad88;
+
+  --cream: #e8d8c3;
+  --beige: #cdb89f;
+
+  --surface: #2a211d;
+  --surface-light: #3a2d26;
+
+  --border: #5a4638;
+
+  --muted: #a99582;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+* {
+  box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
+  margin: 0;
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+@font-face {
+  font-family: "MyFont";
+  src: url("/font/ArchivoBlack-Regular.ttf") format("ttf");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Mytext";
+  src: url("/font/Outfit-VariableFont_wght.ttf") format("ttf");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --font-main: "MyFont";
+  --font-matn: "Mytext";
+}
+
