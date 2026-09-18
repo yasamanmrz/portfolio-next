@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+🌐 Personal Portfolio — Yasaman Mirzaei
 
-## Getting Started
+A modern and responsive personal portfolio website built to showcase my skills, projects, and experience as a Front-End Developer.
 
-First, run the development server:
+✨ About
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This portfolio was designed and developed to present my work, technical skills, and professional background in a clean and modern interface.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The website includes separate pages for:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- 🏠 Home
+- 👩🏻‍💻 About
+- 💼 Portfolio
+- 📩 Contact
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🛠️ Technologies
 
-## Learn More
+- Next.js
+- React
+- JavaScript
+- Tailwind CSS
+- React Icons
+- Git & GitHub
 
-To learn more about Next.js, take a look at the following resources:
+🎨 Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Fully responsive design
+- Modern and minimal UI
+- Multi-page navigation
+- Animated page transitions
+- Project showcase
+- Skills section
+- Contact form
+- Social media links
+- Mobile-friendly navigation
+- Optimized layout for different screen sizes
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+📂 Pages
 
-## Deploy on Vercel
+Home
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Introduction and a short overview of my professional profile.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+About
+
+Information about my education, skills, and background.
+
+Portfolio
+
+A collection of my front-end projects with links to live demos and GitHub repositories.
+
+Contact
+
+Contact information and a contact form for sending messages.
+
+
+<img width="1920" height="921" alt="Yasaman _ Frontend Developer - Google Chrome 9_18_2026 6_07_12 PM" src="https://github.com/user-attachments/assets/055ca024-f46e-4f47-b998-5072d4bdfb59" />
+
+[View Live Portfolio](http://yasamandev.ir)
+
+👩🏻‍💻 About Me
+
+I'm Yasaman Mirzaei, a Front-End Developer passionate about creating modern, responsive, and user-friendly web experiences.
+
+I have a Bachelor's degree in General Biology and I am currently continuing my Bachelor's studies in Computer Engineering.
+
+
+
+Built with ❤️ using Next.js and Tailwind CSS.
